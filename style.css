@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'roboto' sans-serif;
+    font-size: 16px;
+    line-height: 1.3rem;
+    background: white;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.contanier{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.logo h1 {
+    font-style: italic;
+    font-weight: oblique;
+    font-size: 50px;
+    color: teal;
+    padding-top: 20px;
+}
+#navbar{
+    box-shadow: 2px 2px whitesmoke;
+    padding: 5px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header ul{
+    display: flex;
+    justify-content: space-between;
+}
+.header ul li a{
+    padding: 20px;
+    margin: 20px;
+    color: grey;
+}
+.header ul li {
+    padding-top: 20px;
+}
+.btn{
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    height: 45px;
+    background: lightseagreen;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 5PX;
+}
+.header ul li a:hover{
+    color:lightseagreen;
+}
+.header .active{
+    color: lightseagreen;
+
+}
+/* showcase */
+.showcase{
+    background: url(./img/daylight-forest-glossy-lake-443446.jpg)no-repeat center center/cover;
+    height: 400px;
+    color: #fff;
+}
+.showcase p{
+    text-align: center;
+    text-size-adjust: 10px;
+    padding: 30px;
+    /* margin: 30px; */
+    padding-top: 150px;
+}
+/* text */
+.text{
+    text-align: center;
+    padding: 50px;
+    font-weight: lighter;
+    color: gray;
+}
+/* section of box */
+
+.box{
+    box-shadow: 3px 3px  whitesmoke;
+    width: 297px;
+    height: 300px;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    /* margin: 30px; */
+
+}
+.box > img{
+    width: 280px;
+    height: 210px;
+    border-radius: 20px;
+    /* position: absolute; */
+}
+.box  p{
+   text-align: center;
+   padding-top: 15px;
+   font-size: 30px;
+   font-weight: bold;
+   color: gray;
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+/* sction of display */
+.play{
+    background:lightgray;
+    height: 500px;
+    margin-bottom: 150px;
+}
+#display{
+    display: flex;
+}
+#display div{
+    flex: 1;
+}
+#display .display-img{
+    background: url(./img/seriously.jpg)no-repeat center center/cover;
+    border-radius: 3px;
+    min-height: 250px;
+}
+#display .dispaly-content{
+    text-align: justify;
+    margin: 30px;
+}
+.dispaly-content h1{
+    padding: 10px;
+}
+.dispaly-content p{
+    line-height: 1.3rem;
+    padding: 10px;
+    /* margin-bottom: 10px; */
+}
+/* set */
+.set-bk{
+    height: 400px;
+    margin-bottom: 150px;
+}
+#set{
+    display: flex;
+}
+#set > div {
+    flex: 1;
+}
+#set .set-content{
+    text-align: justify;
+    margin: 30px;
+}
+.set-content h1{
+    padding: 10px;
+}
+.set-content p{
+    line-height: 1.3rem;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#set .set-img{
+    background: url(./img/look\ at\ me.jpg)no-repeat center center/cover;
+    border-radius: 3px;
+    min-height: 250px;
+}
+/* section of board */
+#about{
+    display: flex;
+    margin-bottom: 50px;
+}
+.board{
+    box-shadow: 5px 5px 5px 5px white;
+    background: whitesmoke;
+    width: 500px;
+    height: 250px;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    /* padding-top: 80px ; */
+}
+.board p{
+    text-align: justify;
+    line-height: 2rem;
+}
+.board h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.board{
+    /* margin-left: 300px; */
+    margin-bottom: 40px;
+}
+/* footer */
+#background{
+    background: #444;
+    color: #fff;
+    padding: 10px;
+}
+.futa{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+.grid{
+    margin: 10px;
+    padding: 10px;
+    font-weight: lighter;
+}

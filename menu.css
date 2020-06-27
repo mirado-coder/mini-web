@@ -1,0 +1,41 @@
+@media(max-width: 580px){
+    .header,
+    .header ul{
+        display: block;
+        text-align: center;
+    }
+    .all,#set,.futa,#display,#about{
+        display: block;
+    }
+    #about{
+        display: none;
+    }
+    #display .display-img{
+        display: none;
+    }
+    #display .dispaly-content{
+        text-align: center;
+    }
+    .play{
+        height:655px;
+    }
+    #set .set-content{
+        display: none;
+    }
+    #set .set-img{
+        height: 700px;
+    }
+}
+@media(max-width:768px){
+    .play{
+       height: 700px;
+    }
+    .set-bk{
+        height: 700px;
+    }
+    .header,
+    .header ul{
+        display: block;
+        text-align: center;
+    }
+}
